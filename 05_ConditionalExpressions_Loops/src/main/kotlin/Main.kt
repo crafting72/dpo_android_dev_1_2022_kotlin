@@ -16,7 +16,7 @@ fun main() {
     //println(fibonacciWithRecursion(number = number!!.toLong()))
     //println(fibonacciWithImprovementsRecursion(number = number!!.toLong() - 2, 1, 1))
     //println(fibonacciWithWhile(number!!.toLong()))
-    println(fibonacciWithFor(number!!.toLong()))
+    println(fibonacciWithFor(number))
 }
 
 /*fun fibonacciWithRecursion(number: Long): Long { //At > 50 it works for a long time
