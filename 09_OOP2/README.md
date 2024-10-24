@@ -72,3 +72,16 @@ Implement the "Top up", "Pay" and "Get balance information" functions. Both own 
 
 
 Examples 
+
+Bonus points in the amount of 1% of purchases.
+
+Potential cashback of 5% of purchases provided that you spend more than 5,000 thousand rubles.
+
+Accumulation in the amount of 0.005% of the amount of deposits.
+
+
+
+7. For specific debit and credit cards, adjust the "Top up" and "Pay" functions so that they take into account specific bonus programs.
+8. For specific debit and credit cards, implement the function "Getting information about all available funds". The function should take into account your own and credit funds, as well as the corresponding bonuses.
+9. Analyze the resulting classes. If necessary, move the implementation of the functions to a higher level.
+10. Make sure that all the functions of your classes are working correctly. To do this, create instances of classes and check the operation of each of the described functions.
