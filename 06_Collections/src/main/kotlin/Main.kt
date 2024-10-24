@@ -4,15 +4,16 @@ package org.example
 
 fun main() { //Part 1
     println("Enter the number N (the number of numbers in the list), which is > 0.")
-    val number = readln().toIntOrNull()
+    var number = readln().toIntOrNull()
     while (true) {
         if (number != null){
             if (number <= 0) println("You entered a number <= 0, try again.")
             else break
         }
         else println("You haven't entered anything, try again.")
+        number = readln().toIntOrNull()
     }
-    var numbers = List<Int>(size = number!!.toInt()) { Random.nextInt(-5, 5 ) }
+    var numbers = List<Int>(size = number.toInt()) { Random.nextInt(-5, 5 ) }
    //println(numbers.joinToString(", ")) //The output is separated by a string and a separator.
     println(numbers) //output via a list
     numbers = numbers.toMutableList()

@@ -5,7 +5,7 @@ import org.example.throwable.TooHighPressure
 import org.example.throwable.TooLowPressure
 
 fun main() {
-    repeat(3) {
+    repeat(4) {
         print("Put pressure on the wheel: ")
         val pressure = check()
         val wheel = Wheel()
