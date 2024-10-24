@@ -67,7 +67,7 @@ Create heirs:
 - firing in bursts (data class, takes the "queue size" parameter in the constructor).
 Create additional shooting types if necessary.
 
-    4. AbstractWeapon weapon class.
+4. AbstractWeapon weapon class.
 
 Features:
 
@@ -81,3 +81,34 @@ Methods:
 - creation of a cartridge of the required type;
 - Reloading — a new magazine is created and filled with cartridges using the cartridge creation function;
 - getting cartridges for the shot — cartridges are obtained from the magazine in accordance with the type of shooting for the shot(s) (the number of cartridges in the magazine should decrease).
+
+5. Singleton is a Weapons object that creates different types of weapons. The Weapons object should create anonymous AbstractWeapon objects. Create at least four methods for different types of weapons.
+
+Work example: val pistol: Abstract Weapon = Weapons.create Pistol().
+
+6. The Warrior interface.
+
+Features: 
+
+- isKilled,
+- a chance to avoid being hit.
+
+Methods: 
+
+- attack — takes the enemy (Warrior) at the entrance,
+- take damage — takes the amount of damage at the entrance.
+
+7. Abstract Warrior Abstract class, which implements the Warrior interface.
+
+Features:
+
+- maximum health level,
+- Evasion is a chance to avoid being hit,
+- accuracy — hit probability,
+weapon,
+- current health level.
+
+Methods:
+
+- Attack (interface method) — if there are no bullets in the weapon, reload the weapon and skip the turn. Otherwise, get ammo to fire. For each of them, check whether the cartridge matches the accuracy of the war and the evasion of the enemy. For bullets that hit the enemy, calculate the total damage. Deal damage to the enemy.
+- Take damage (interface method) — take away damage from the current health level.
