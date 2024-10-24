@@ -30,4 +30,4 @@ Create your own TV class that describes a variety of TVs and has all the listed 
   - All function calls are handled correctly if the TV is turned off (unless otherwise stated).
 
 # Output
-[![The program is running.]()](https://github.com/user-attachments/assets/ad636054-0932-4b91-bbba-2e059031f365)
+https://github.com/user-attachments/assets/859ebc15-d33b-4025-8877-1e0cf0540c00
