@@ -39,9 +39,9 @@ Develop a program:
 
 To do this, you will need the following components:
 
-    1. An extension function for the Int type. It should calculate whether the chance has been realized and return a Boolean. Use this function for probability-related checks. The function must be implemented by calling Random.nextInt(). 
+1. An extension function for the Int type. It should calculate whether the chance has been realized and return a Boolean. Use this function for probability-related checks. The function must be implemented by calling Random.nextInt(). 
 
-    2. Ammo enumeration (enum) for types of cartridges.
+2. Ammo enumeration (enum) for types of cartridges.
 
 Features:
 
@@ -75,6 +75,7 @@ Features:
 - Type of shooting (FireType).
 - Ammo magazine. Use the Stack class from the first part of the homework. When creating a weapon, the store is empty.
 - The fact that there are cartridges in the magazine.
+
 Methods:
 
 - creation of a cartridge of the required type;
