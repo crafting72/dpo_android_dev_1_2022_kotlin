@@ -9,3 +9,6 @@ Write a program that uses the print and println functions to output several sugg
 2. Leave a one-line or block comment on your code.
 3. Comment out one or more lines of your code (To do this, you need to have several calls to the print/println functions in your code.
 4. Run the program to check that it works.
+
+# Output
+![](https://github.com/user-attachments/assets/18da6e74-a58b-4d90-96ec-46c4d64e7a88)
