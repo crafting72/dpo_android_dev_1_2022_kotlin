@@ -55,15 +55,25 @@ To develop a console program simulating the life cycle of animals in the reserve
 10. Create a NatureReserve class, which is a nature reserve with different animals.
 11. Initialize the reserve. Initially, there should be five birds, three fish, two dogs and several ordinary animals. 
 12. Write a program that simulates the life cycle of animals in the reserve. 
+  
   For a limited number of iterations, N, each animal does one random action that its properties allow it to do: eat, sleep, move, give birth. 
+  
   When an animal has a cub, it is added to the total number of animals in the reserve. 
+  
   At the end of the iteration, all animals whose age has exceeded the maximum are removed from the reserve. 
+ 
   At the end of the work, the number of animals in the reserve that remained alive should be displayed. 
+  
   If all the animals have disappeared, the program should be interrupted, with the output of the corresponding message.
 # Output
 ![](https://github.com/user-attachments/assets/3724042a-2c94-4d30-8eff-45615902b934)
+
 ![](https://github.com/user-attachments/assets/536c39de-a128-4210-83a6-f1fc8159a6ba)
+
 ![](https://github.com/user-attachments/assets/041136ba-0f76-4896-bf52-0de2704f2250)
+
 ![](https://github.com/user-attachments/assets/d909be6d-b762-4804-b760-8a7175292de1)
+
 ![](https://github.com/user-attachments/assets/66ee0caf-6709-400f-901d-2a97aa46b84a)
+
 ![](https://github.com/user-attachments/assets/d5402fc2-b8b9-41b2-8f45-d81395c88e84)
