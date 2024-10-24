@@ -35,3 +35,6 @@ Example:
 *When pumping 6 atmospheres, the procedure was successful. Operation is impossible — the pressure exceeds normal.*
 
 *When pumping 2 atmospheres, the procedure was successful. Operation is possible.*
+
+# Output
+![](https://github.com/user-attachments/assets/78a0c805-d2f2-4877-88e0-0a3833fc78ac)
