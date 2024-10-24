@@ -85,3 +85,12 @@ Accumulation in the amount of 0.005% of the amount of deposits.
 8. For specific debit and credit cards, implement the function "Getting information about all available funds". The function should take into account your own and credit funds, as well as the corresponding bonuses.
 9. Analyze the resulting classes. If necessary, move the implementation of the functions to a higher level.
 10. Make sure that all the functions of your classes are working correctly. To do this, create instances of classes and check the operation of each of the described functions.
+
+# Output
+![](https://github.com/user-attachments/assets/0d319f4d-6fcd-4a4f-a4e8-82c7a3ed81c5)
+
+![](https://github.com/user-attachments/assets/be1e04e5-83d9-4662-8947-029c6214be8a)
+
+![](https://github.com/user-attachments/assets/ad936b65-2d6c-4e33-b6ea-58150b83281d)
+
+![](https://github.com/user-attachments/assets/60ceb261-7a91-4eae-baf4-632fc7fff2aa)
