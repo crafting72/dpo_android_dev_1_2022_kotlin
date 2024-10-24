@@ -40,16 +40,24 @@ To develop a console program simulating the life cycle of animals in the reserve
   Add a random increase in age to the — tryIncrementAge method
   
   If the animal is too old, if there is not enough weight or energy to perform an action, then nothing happens.
+
 6. An animal can produce offspring. 
+
   The name and maximum age of the born animal are the same as that of the parent.
+  
   The energy for a born animal is randomly set in the range from 1 to 10. 
+  
   The weight for a born animal is set randomly in the range from 1 to 5. 
+  
   The console should display a message about which animal was born and what characteristics it has.
-7. Create inheritors of the Animal class: Bird, Fish, Dog. 
-8. In each of the heirs, redefine the function responsible for movement. For each heir in this function, it is necessary to call the parent implementation and additionally output a message to the console:
+
+8. Create inheritors of the Animal class: Bird, Fish, Dog. 
+
+9. In each of the heirs, redefine the function responsible for movement. For each heir in this function, it is necessary to call the parent implementation and additionally output a message to the console:
   - for Bird — "Flying",
   - for Fish — "Swims",
   - for Dog — "Running".
+  
   Optional: ensure that the additional message is displayed only if the parent implementation is executed.
 9. In each of the heirs, redefine the function responsible for the birth of a descendant. The Fish class must return an object of the Fish class. Similarly with Bird and Dog.
 10. Create a NatureReserve class, which is a nature reserve with different animals.
