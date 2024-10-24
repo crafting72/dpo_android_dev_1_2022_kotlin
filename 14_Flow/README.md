@@ -23,9 +23,9 @@ Choose one of the game options and implement it using coroutine and flow:
 1. Create the necessary classes and objects. For example, a number generator is suitable for the role of a presenter.
 2. Distribute data between these classes and objects using various flows. Choose the most appropriate option for this task.
 3. The program must be executed in accordance with the described rules and simulate the game of several players. Pay special attention to the following points:
-  - data production (data transfer to flow) must stop after one of the players wins;
-  - all collectors must unsubscribe from flow, that is, stop receiving data after one of the players wins;
-  - the program must terminate correctly, all coroutines must complete their execution.
+    - data production (data transfer to flow) must stop after one of the players wins;
+    - all collectors must unsubscribe from flow, that is, stop receiving data after one of the players wins;
+    - the program must terminate correctly, all coroutines must complete their execution.
 
 Be careful and follow the principles of responsibility of the various components so that the code is not confusing.
 
