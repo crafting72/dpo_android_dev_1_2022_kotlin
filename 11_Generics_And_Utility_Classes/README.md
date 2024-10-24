@@ -112,3 +112,42 @@ Methods:
 
 - Attack (interface method) — if there are no bullets in the weapon, reload the weapon and skip the turn. Otherwise, get ammo to fire. For each of them, check whether the cartridge matches the accuracy of the war and the evasion of the enemy. For bullets that hit the enemy, calculate the total damage. Deal damage to the enemy.
 - Take damage (interface method) — take away damage from the current health level.
+
+8. Classes for warriors inherited from AbstractWarrior.
+
+Make several classes of warriors. Divide them, for example, by seniority. An older warrior should have a higher level of health, greater accuracy, and better weapons. *Examples of classes: General, Captain, Soldier.*
+
+9. The class of the team Team, which consists of warriors.
+
+Warriors are recruited into the team according to probability: the higher the probability, the lower the rank. *Example: a general is created with a probability of 10%, otherwise a captain is created with a probability of 40%, otherwise a soldier is created.*
+
+10. Sealed-BattleState class, which describes the current state of the battle.
+
+There are four states:
+
+- Progress — contains the necessary information for output to the console. For example: the total health of the team or the number of remaining warriors. Determine the necessary information yourself.
+- The victory of the first team.
+- The victory of the second team.
+- Draw.
+
+11. Battle Class Battle. This class is responsible for the logic of the battle.
+
+Features:
+
+- Team 1,
+- Team 2,
+- the battle is over. 
+
+Methods:
+
+- Get the battle status. 
+
+  Determine the criteria for victory or defeat. For example:
+
+  in each team, it is checked whether there are living warriors. If two teams have live warriors, the progress status is returned. Otherwise, it's a victory for one of the teams.
+
+- Make an iteration of the battle.
+
+  Define the rules for the iteration of the battle. For example:
+
+  The warriors of the two teams are mixed up. Warriors from each team deal damage to each other in turn, if they are alive.
