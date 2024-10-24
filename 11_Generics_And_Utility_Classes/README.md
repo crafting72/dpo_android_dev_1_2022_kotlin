@@ -23,7 +23,7 @@ One of the standard collections in programming is Stack. This collection is char
 
 1. Create a Generic Stack<T> class that will store items according to the rules of the Stack collection.
 2. Create functions in this class:
-  1. push(item: T) — adds an item to the stack.
-  2. pop(): T? — extracts an element from the stack. If the stack is empty, it returns null.
-  3. isEmpty(): Boolean — checks the stack for the presence of elements.
+    1. push(item: T) — adds an item to the stack.
+    2. pop(): T? — extracts an element from the stack. If the stack is empty, it returns null.
+    3. isEmpty(): Boolean — checks the stack for the presence of elements.
 3. Check that the class is working correctly in accordance with the stack rules.
