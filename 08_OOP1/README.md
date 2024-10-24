@@ -12,6 +12,7 @@ To develop a console program simulating the life cycle of animals in the reserve
   - current age,
   - maximum age,
   - name.
+  
   Energy, weight, maximum age and name must be initialized through the constructor.
 3. Add the calculated isTooOld — Boolean property. It should compare the current age with the maximum and return true if the current age is equal to or greater than the maximum.
 4. The animal can sleep, eat and move around. 
