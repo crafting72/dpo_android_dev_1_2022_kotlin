@@ -151,3 +151,24 @@ Methods:
   Define the rules for the iteration of the battle. For example:
 
   The warriors of the two teams are mixed up. Warriors from each team deal damage to each other in turn, if they are alive.
+
+# Output
+![](https://github.com/user-attachments/assets/4428384e-6669-4625-bb84-ae9cf0109bb9)
+
+![](https://github.com/user-attachments/assets/ae79c7b5-0fa6-4448-9afd-a2dab174ce01)
+
+![](https://github.com/user-attachments/assets/459f66de-9a88-40fe-8906-82ef661fe622)
+
+![](https://github.com/user-attachments/assets/e7afdf8c-709c-48e0-bbde-c1754daca176)
+
+![](https://github.com/user-attachments/assets/31d2e986-1f3c-491a-94f5-b705cc84a447)
+
+![](https://github.com/user-attachments/assets/3c1b133a-8677-4620-b1bf-8523202e7a3b)
+
+![](https://github.com/user-attachments/assets/51904404-6938-4e3d-aacb-097435c554c2)
+
+
+
+
+
+
