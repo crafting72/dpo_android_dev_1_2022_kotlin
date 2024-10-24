@@ -8,4 +8,4 @@ Develop a loop and write a program that calculates the nth number from the Fibon
 3. Output the calculated value to the console. Make sure that the number is calculated correctly by checking it against the Fibonacci number table. Experiment with different n.
 
 # Output
-![](https://github.com/user-attachments/assets/d24fcc60-0934-46c2-b587-1da6e18897e0)
+![](https://github.com/user-attachments/assets/c49a2f5d-59ac-45a7-b3e4-910af304c5a9)
