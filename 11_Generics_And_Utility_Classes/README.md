@@ -27,3 +27,12 @@ One of the standard collections in programming is Stack. This collection is char
     2. pop(): T? — extracts an element from the stack. If the stack is empty, it returns null.
     3. isEmpty(): Boolean — checks the stack for the presence of elements.
 3. Check that the class is working correctly in accordance with the stack rules.
+
+## Part 2
+
+Develop a program:
+- The user enters the number of warriors in the team.
+- The battle begins. 
+- The battle takes place automatically and step by step until one of the teams wins or draws.
+- Each turn collects and displays current information about the status of the battle.
+- At the end of the battle, the winning team or a draw is displayed.
