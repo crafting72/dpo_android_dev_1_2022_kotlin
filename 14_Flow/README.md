@@ -30,3 +30,4 @@ Choose one of the game options and implement it using coroutine and flow:
 Be careful and follow the principles of responsibility of the various components so that the code is not confusing.
 
 # Output
+![](https://github.com/user-attachments/assets/1d1d98b1-9900-43b4-91c3-d38ec4509344)
