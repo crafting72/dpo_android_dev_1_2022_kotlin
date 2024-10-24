@@ -1,5 +1,4 @@
 # Homework goals
-To work:
 - Learn how to create mutable and immutable variables of various types.
 - Work with changing the values of variables.
 - Track the dependence of variable values.
