@@ -59,9 +59,13 @@ To develop a console program simulating the life cycle of animals in the reserve
   - for Dog — "Running".
   
   Optional: ensure that the additional message is displayed only if the parent implementation is executed.
+
 9. In each of the heirs, redefine the function responsible for the birth of a descendant. The Fish class must return an object of the Fish class. Similarly with Bird and Dog.
+
 10. Create a NatureReserve class, which is a nature reserve with different animals.
+
 11. Initialize the reserve. Initially, there should be five birds, three fish, two dogs and several ordinary animals. 
+
 12. Write a program that simulates the life cycle of animals in the reserve. 
   
   For a limited number of iterations, N, each animal does one random action that its properties allow it to do: eat, sleep, move, give birth. 
