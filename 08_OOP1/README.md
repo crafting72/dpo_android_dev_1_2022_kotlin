@@ -33,9 +33,12 @@ To develop a console program simulating the life cycle of animals in the reserve
   - The age of the animal may increase by 1.
   - The console displays the message: "${animal name} is moving".
 5. Implement a random increase in age using the Random class from the kotlin.random package and the method.nextBoolean().
+  
   Usage example:
   ![](https://github.com/user-attachments/assets/5c1534ac-517b-42b8-b266-632839a8bd93)
+  
   Add a random increase in age to the — tryIncrementAge method
+  
   If the animal is too old, if there is not enough weight or energy to perform an action, then nothing happens.
 6. An animal can produce offspring. 
   The name and maximum age of the born animal are the same as that of the parent.
